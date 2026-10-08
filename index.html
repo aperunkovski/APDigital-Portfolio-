@@ -1,0 +1,1815 @@
+<!doctype html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07120d">
+  <meta name="description" content="AP Digital Studio — web dizajn i razvoj modernih digitalnih proizvoda.">
+  <title>AP Digital Studio — Web Design & Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- HEADER -->
+  <header class="header" id="top">
+
+    <a class="brand" href="#top" aria-label="AP Digital Studio home">
+      <span>AP</span>
+      <b>Digital Studio</b>
+    </a>
+
+    <nav class="nav" id="navMenu">
+      <a href="#about" data-i18n="navAbout">O nama</a>
+      <a href="#services" data-i18n="navServices">Usluge</a>
+      <a href="#work" data-i18n="navWork">Projekti</a>
+      <a href="#process" data-i18n="navProcess">Proces</a>
+      <a href="#contact" data-i18n="navContact">Kontakt</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <button
+        class="language-switch"
+        id="languageSwitch"
+        type="button"
+        aria-label="Promijeni jezik"
+      >
+        <span class="lang-current">HR</span>
+        <span class="lang-arrow">↗</span>
+      </button>
+
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        aria-label="Menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="hero">
+
+      <div class="hero-noise-orb"></div>
+
+      <div class="hero-meta">
+        <span class="status-dot"></span>
+
+        <span data-i18n="available">
+          Dostupni smo za nove projekte
+        </span>
+
+        <span class="meta-year">
+          © 2026
+        </span>
+      </div>
+
+
+      <div class="hero-grid">
+
+        <div class="hero-copy">
+
+          <p class="eyebrow">
+            AP / DIGITAL STUDIO
+            <span>↗</span>
+          </p>
+
+          <h1>
+            <span data-i18n="hero1">
+              Web stranice koje
+            </span>
+
+            <em data-i18n="hero2">
+              izgledaju
+            </em>
+
+            <span data-i18n="hero3">
+              kao brend.
+            </span>
+          </h1>
+
+
+          <p class="hero-text" data-i18n="heroText">
+            Dizajniramo i razvijamo moderne, brze i upečatljive
+            web stranice za tvrtke, brendove i ljude s idejom.
+          </p>
+
+
+          <div class="hero-cta">
+
+            <a
+              class="btn btn-fill"
+              href="#work"
+              data-i18n="seeWork"
+            >
+              Pogledaj projekte
+              <span>↗</span>
+            </a>
+
+            <a
+              class="btn btn-glass"
+              href="#contact"
+              data-i18n="startProject"
+            >
+              Pokreni projekt
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+        <div
+          class="hero-art"
+          aria-hidden="true"
+          data-parallax
+        >
+
+          <div class="hero-grid-plane"></div>
+
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="orb orb-c"></div>
+
+          <div class="ring ring-a"></div>
+          <div class="ring ring-b"></div>
+
+          <div class="scan-line"></div>
+
+
+          <div class="floating-card card-main glass-panel">
+
+            <div class="card-top">
+              <span>WEB / 01</span>
+              <i>↗</i>
+            </div>
+
+            <strong data-i18n="heroCardTitle">
+              Dizajn
+              <br>
+              <em>&amp; razvoj</em>
+            </strong>
+
+            <div class="card-progress">
+              <span></span>
+            </div>
+
+            <small data-i18n="heroCardSystem">
+              AP DIGITAL SUSTAV
+            </small>
+
+          </div>
+
+
+          <div class="floating-card card-mini glass-panel">
+
+            <span data-i18n="statusLabel">
+              STATUS
+            </span>
+
+            <strong>
+              <b></b>
+              <span data-i18n="building">
+                U IZRADI
+              </span>
+            </strong>
+
+          </div>
+
+
+          <div class="floating-card card-code glass-panel">
+
+            <span>
+              &lt;code&gt;
+            </span>
+
+            <strong>
+              01 / 100
+            </strong>
+
+            <i>+</i>
+
+          </div>
+
+
+          <div class="crosshair">
+            +
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-bottom">
+
+        <span>
+          AP DIGITAL STUDIO
+        </span>
+
+        <span data-i18n="scroll">
+          Povuci za više
+        </span>
+
+        <span>
+          ↓
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- IMPACT -->
+    <section
+      class="impact section"
+      id="impact"
+      aria-label="Key results"
+    >
+
+      <div class="impact-grid">
+
+        <article class="impact-card impact-lime glass-card">
+
+          <span
+            class="impact-kicker"
+            data-i18n="impactProjectsLabel"
+          >
+            REZULTATI
+          </span>
+
+          <strong
+            class="impact-value"
+            data-count="150"
+            data-suffix="+"
+          >
+            0+
+          </strong>
+
+          <p data-i18n="impactProjects">
+            Završeni projekti
+          </p>
+
+        </article>
+
+
+        <article class="impact-card impact-mint glass-card">
+
+          <span
+            class="impact-kicker"
+            data-i18n="impactClientsLabel"
+          >
+            POVJERENJE
+          </span>
+
+          <strong
+            class="impact-value"
+            data-count="99"
+            data-suffix="%"
+          >
+            0%
+          </strong>
+
+          <p data-i18n="impactClients">
+            Zadovoljni klijenti
+          </p>
+
+        </article>
+
+
+        <article class="impact-card impact-teal glass-card">
+
+          <span
+            class="impact-kicker"
+            data-i18n="impactSupportLabel"
+          >
+            PODRŠKA
+          </span>
+
+          <strong
+            class="impact-value"
+            data-count="24"
+            data-suffix="/7"
+          >
+            0/7
+          </strong>
+
+          <p data-i18n="impactSupport">
+            Dostupna podrška
+          </p>
+
+        </article>
+
+
+        <article class="impact-card impact-aurora glass-card">
+
+          <span
+            class="impact-kicker"
+            data-i18n="impactViewsLabel"
+          >
+            DOSEG
+          </span>
+
+          <strong
+            class="impact-value"
+            data-count="15"
+            data-suffix="M+"
+          >
+            0M+
+          </strong>
+
+          <p data-i18n="impactViews">
+            Pregledi stranica
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section
+      class="about section"
+      id="about"
+    >
+
+      <div class="section-label">
+
+        <span data-i18n="aboutLabel">
+          O NAMA
+        </span>
+
+        <span>↗</span>
+
+      </div>
+
+
+      <div class="about-grid">
+
+        <div>
+
+          <h2 data-i18n="aboutTitle">
+            Ne izrađujemo samo web stranice.
+            <i>Gradimo digitalna iskustva.</i>
+          </h2>
+
+        </div>
+
+
+        <div class="about-copy">
+
+          <p data-i18n="aboutText">
+            AP Digital Studio je neovisni digitalni studio
+            fokusiran na web dizajn, razvoj i digitalne proizvode.
+            Od prve ideje do finalne objave,
+            svaki detalj ima razlog.
+          </p>
+
+          <a
+            class="text-link"
+            href="#contact"
+          >
+            <span data-i18n="talk">
+              Razgovarajmo
+            </span>
+            ↗
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="values-grid">
+
+        <article class="glass-card">
+
+          <span>01</span>
+
+          <h3 data-i18n="value1">
+            Čist kod
+          </h3>
+
+          <p data-i18n="value1p">
+            Semantički HTML, modularni SCSS i JavaScript
+            koji se lako održava.
+          </p>
+
+          <i>↗</i>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>02</span>
+
+          <h3 data-i18n="value2">
+            Performanse
+          </h3>
+
+          <p data-i18n="value2p">
+            Brzo učitavanje, optimizirani asseti
+            i glatko korisničko iskustvo.
+          </p>
+
+          <i>↗</i>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>03</span>
+
+          <h3 data-i18n="value3">
+            Responzivnost
+          </h3>
+
+          <p data-i18n="value3p">
+            Precizno iskustvo na desktopu,
+            tabletu i mobitelu.
+          </p>
+
+          <i>↗</i>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>04</span>
+
+          <h3 data-i18n="value4">
+            Spremno za rast
+          </h3>
+
+          <p data-i18n="value4p">
+            Struktura spremna za nove stranice,
+            funkcije, API-je i razvoj poslovanja.
+          </p>
+
+          <i>↗</i>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section
+      class="services section"
+      id="services"
+    >
+
+      <div class="section-label">
+
+        <span data-i18n="servicesLabel">
+          USLUGE
+        </span>
+
+        <span>↗</span>
+
+      </div>
+
+
+      <div class="services-head">
+
+        <h2 data-i18n="servicesTitle">
+          Od ideje do
+          <br>
+          <i>žive web stranice.</i>
+        </h2>
+
+        <p data-i18n="servicesIntro">
+          Kompletan web proces bez nepotrebne komplikacije.
+        </p>
+
+      </div>
+
+
+      <div class="service-list">
+
+        <article class="glass-row">
+
+          <span>01</span>
+
+          <div>
+
+            <h3 data-i18n="s1">
+              Web dizajn
+            </h3>
+
+            <p data-i18n="s1p">
+              UX/UI, vizualni identitet, responzivni
+              rasporedi i prototipiranje.
+            </p>
+
+          </div>
+
+          <b>↗</b>
+
+        </article>
+
+
+        <article class="glass-row">
+
+          <span>02</span>
+
+          <div>
+
+            <h3 data-i18n="s2">
+              Web razvoj
+            </h3>
+
+            <p data-i18n="s2p">
+              Moderni HTML, SCSS, JavaScript,
+              React i interaktivne web aplikacije.
+            </p>
+
+          </div>
+
+          <b>↗</b>
+
+        </article>
+
+
+        <article class="glass-row">
+
+          <span>03</span>
+
+          <div>
+
+            <h3 data-i18n="s3">
+              Poslovne stranice
+            </h3>
+
+            <p data-i18n="s3p">
+              Corporate webovi, landing stranice,
+              portfoliji, restorani i lokalni biznisi.
+            </p>
+
+          </div>
+
+          <b>↗</b>
+
+        </article>
+
+
+        <article class="glass-row">
+
+          <span>04</span>
+
+          <div>
+
+            <h3 data-i18n="s4">
+              Webshopovi i sustavi
+            </h3>
+
+            <p data-i18n="s4p">
+              Online trgovine, filteri,
+              administracijski paneli,
+              API integracije i prilagođene funkcionalnosti.
+            </p>
+
+          </div>
+
+          <b>↗</b>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section
+      class="work section"
+      id="work"
+    >
+
+      <div class="section-label">
+
+        <span data-i18n="workLabel">
+          ODABRANI PROJEKTI
+        </span>
+
+        <span>↗</span>
+
+      </div>
+
+
+      <div class="work-head">
+
+        <h2 data-i18n="workTitle">
+          Rad koji
+          <br>
+          <i>govori sam za sebe.</i>
+        </h2>
+
+        <p data-i18n="workIntro">
+          Od modnog brenda do sportskog portala
+          i edukativne platforme.
+        </p>
+
+      </div>
+
+
+      <div class="projects">
+
+
+        <!-- NAKO -->
+        <article
+          class="project project-large glass-project"
+          data-project="nako"
+        >
+
+          <div class="project-visual visual-nako">
+
+            <div class="project-glow"></div>
+
+            <div class="nako-ui">
+
+              <div class="nako-label">
+                AP / 001
+              </div>
+
+              <strong>
+                NAKO
+                <br>
+                <span>MODERNWEAR</span>
+              </strong>
+
+              <div class="nako-line"></div>
+
+              <div class="nako-meta">
+
+                <span data-i18n="nakoMeta">
+                  ESSENTIAL / 2026
+                </span>
+
+                <b data-i18n="nakoShop">
+                  SHOP ↗
+                </b>
+
+              </div>
+
+            </div>
+
+            <div class="project-index">
+              01
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div>
+
+              <span data-i18n="nakoCat">
+                01 / MODNI BREND
+              </span>
+
+              <h3>
+                Nako Modernwear
+              </h3>
+
+            </div>
+
+
+            <p data-i18n="nakoDesc">
+              Premium web koncept za modni brend
+              s jakim vizualnim smjerom,
+              čistom tipografijom i suvremenim shop iskustvom.
+            </p>
+
+
+            <a
+              href="https://aperunkovski.github.io/Template-Brand/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-i18n="viewProject">
+                Otvori projekt
+                <b>↗</b>
+              </span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- MALI KADAR -->
+        <article
+          class="project glass-project"
+          data-project="mali"
+        >
+
+          <div class="project-visual visual-mali">
+
+            <div class="project-glow"></div>
+
+            <div class="photo-frame">
+
+              <small data-i18n="maliMeta">
+                FOTO STUDIO · RIJEKA
+              </small>
+
+              <span>
+                MALI
+                <br>
+                KADAR
+              </span>
+
+              <b>
+                01 — 12
+              </b>
+
+            </div>
+
+            <div class="project-index">
+              02
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div>
+
+              <span data-i18n="maliCat">
+                02 / FOTOGRAFIJA
+              </span>
+
+              <h3>
+                Mali Kadar
+              </h3>
+
+            </div>
+
+
+            <p data-i18n="maliDesc">
+              Minimalistička web stranica
+              foto studija s portfolijem,
+              paketima i jasnim kontakt tokom.
+            </p>
+
+
+            <a
+              href="https://aperunkovski.github.io/Mali-Kadar/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-i18n="viewProject">
+                Otvori projekt
+                <b>↗</b>
+              </span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- KORNER -->
+        <article
+          class="project glass-project"
+          data-project="korner"
+        >
+
+          <div class="project-visual visual-korner">
+
+            <div class="project-glow"></div>
+
+            <div class="korner-ui">
+
+              <div class="score-top">
+
+                <span>
+                  KORNER.MK
+                </span>
+
+                <b data-i18n="kornerLive">
+                  UŽIVO
+                </b>
+
+              </div>
+
+
+              <div class="score-main">
+
+                <div>
+
+                  <i>MK</i>
+
+                  <strong>
+                    02
+                  </strong>
+
+                  <small data-i18n="teamOne">
+                    Makedonija
+                  </small>
+
+                </div>
+
+                <span>
+                  —
+                </span>
+
+                <div>
+
+                  <i>HR</i>
+
+                  <strong>
+                    01
+                  </strong>
+
+                  <small data-i18n="teamTwo">
+                    Hrvatska
+                  </small>
+
+                </div>
+
+              </div>
+
+
+              <div class="score-feed">
+
+                <span>
+                  18:42
+                </span>
+
+                <b data-i18n="goalLabel">
+                  GOL · 2:1
+                </b>
+
+              </div>
+
+            </div>
+
+
+            <div class="project-index">
+              03
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div>
+
+              <span data-i18n="kornerCat">
+                03 / SPORTS PORTAL
+              </span>
+
+              <h3>
+                Korner.MK
+              </h3>
+
+            </div>
+
+
+            <p data-i18n="kornerDesc">
+              Moderan sportski portal s vijestima,
+              rezultatima, utakmicama i dinamičnom početnom stranicom.
+            </p>
+
+
+            <a
+              href="https://korner-sport-render-fixed.onrender.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-i18n="viewProject">
+                Otvori projekt
+                <b>↗</b>
+              </span>
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- IQ -->
+        <article
+          class="project project-wide glass-project"
+          data-project="iq"
+        >
+
+          <div class="project-visual visual-iq">
+
+            <div class="project-glow"></div>
+
+            <div class="iq-ui">
+
+              <div class="iq-top">
+
+                <span>
+                  IQ ONLINE ACADEMY
+                </span>
+
+                <b>
+                  01 / 04
+                </b>
+
+              </div>
+
+
+              <strong>
+                LEARN.
+                <br>
+
+                <em>
+                  BUILD.
+                </em>
+
+                <br>
+
+                GROW.
+              </strong>
+
+
+              <div class="iq-progress">
+                <span></span>
+              </div>
+
+
+              <small data-i18n="iqVisualMeta">
+                Tečajevi · lekcije · napredak
+              </small>
+
+            </div>
+
+
+            <div class="project-index">
+              04
+            </div>
+
+          </div>
+
+
+          <div class="project-info">
+
+            <div>
+
+              <span data-i18n="iqCat">
+                04 / EDUKACIJA
+              </span>
+
+              <h3>
+                IQ Online Academy
+              </h3>
+
+            </div>
+
+
+            <p data-i18n="iqDesc">
+              Profesionalna online akademija
+              s programima, pop-up komponentama
+              i responzivnim korisničkim iskustvom.
+            </p>
+
+
+            <a
+              href="https://aperunkovski.github.io/IQAcademy/"
+              target="_blank"
+              rel="noopener"
+            >
+              <span data-i18n="viewProject">
+                Otvori projekt
+                <b>↗</b>
+              </span>
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CASE STUDIES -->
+    <section class="case section">
+
+      <div class="case-intro">
+
+        <span data-i18n="caseLabel">
+          SLUČAJEVI RADA
+        </span>
+
+        <h2 data-i18n="caseTitle">
+          Iza svakog
+          <br>
+          <i>pixela postoji razlog.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="case-grid">
+
+        <article class="glass-card">
+
+          <span>01</span>
+
+          <h3 data-i18n="challenge">
+            Izazov
+          </h3>
+
+          <p data-i18n="case1">
+            Velika količina informacija,
+            ali čista i jednostavna navigacija
+            bez vizualnog kaosa.
+          </p>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>02</span>
+
+          <h3 data-i18n="solution">
+            Rješenje
+          </h3>
+
+          <p data-i18n="case2">
+            Modularna struktura,
+            jasna hijerarhija,
+            interaktivne komponente
+            i responsive layout.
+          </p>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>03</span>
+
+          <h3 data-i18n="benefit">
+            Vrijednost
+          </h3>
+
+          <p data-i18n="case3">
+            Korisnik brže dolazi
+            do važne informacije
+            bez nepotrebnih koraka.
+          </p>
+
+        </article>
+
+
+        <article class="glass-card">
+
+          <span>04</span>
+
+          <h3 data-i18n="result">
+            Rezultat
+          </h3>
+
+          <p data-i18n="case4">
+            Finalni proizvod koji izgleda premium,
+            radi brzo i može rasti s poslovanjem.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROCESS -->
+    <section
+      class="process section"
+      id="process"
+    >
+
+      <div class="section-label">
+
+        <span data-i18n="processLabel">
+          PROCES
+        </span>
+
+        <span>↗</span>
+
+      </div>
+
+
+      <div class="process-head">
+
+        <h2 data-i18n="processTitle">
+          Jednostavan proces.
+          <br>
+          <i>Ozbiljni rezultati.</i>
+        </h2>
+
+      </div>
+
+
+      <div class="process-list">
+
+        <article class="process-step active">
+
+          <span class="process-num">
+            01
+          </span>
+
+          <div class="process-content">
+
+            <small data-i18n="step1Label">
+              KORAK 01
+            </small>
+
+            <h3 data-i18n="p1">
+              Istraživanje
+            </h3>
+
+            <p data-i18n="p1p">
+              Definiramo cilj, publiku,
+              sadržaj, funkcionalnosti
+              i smjer projekta.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="process-step">
+
+          <span class="process-num">
+            02
+          </span>
+
+          <div class="process-content">
+
+            <small data-i18n="step2Label">
+              KORAK 02
+            </small>
+
+            <h3 data-i18n="p2">
+              Dizajn
+            </h3>
+
+            <p data-i18n="p2p">
+              Kreiramo vizualni smjer,
+              strukturu, raspored
+              i korisničko iskustvo.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="process-step">
+
+          <span class="process-num">
+            03
+          </span>
+
+          <div class="process-content">
+
+            <small data-i18n="step3Label">
+              KORAK 03
+            </small>
+
+            <h3 data-i18n="p3">
+              Razvoj
+            </h3>
+
+            <p data-i18n="p3p">
+              Dizajn pretvaramo u brz,
+              responzivan i funkcionalan
+              digitalni proizvod.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="process-step">
+
+          <span class="process-num">
+            04
+          </span>
+
+          <div class="process-content">
+
+            <small data-i18n="step4Label">
+              KORAK 04
+            </small>
+
+            <h3 data-i18n="p4">
+              Lansiranje
+            </h3>
+
+            <p data-i18n="p4p">
+              Testiranje, optimizacija,
+              objava i predaja finalnog proizvoda.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+    <section
+      class="testimonials section"
+      id="reviews"
+    >
+
+      <div class="section-label">
+
+        <span data-i18n="reviewsLabel">
+          RECENZIJE
+        </span>
+
+        <span>↗</span>
+
+      </div>
+
+
+      <div class="reviews-head">
+
+        <h2 data-i18n="reviewsTitle">
+          Riječi koje
+          <br>
+          <i>ostaju iza rada.</i>
+        </h2>
+
+        <p data-i18n="reviewsIntro">
+          Šest kratkih dojmova u istom duhu:
+          jednostavno, jasno i usmjereno na rezultat.
+        </p>
+
+      </div>
+
+
+      <div class="reviews-track">
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              IQ ONLINE ACADEMY
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r1">
+            “Brza komunikacija,
+            odličan osjećaj za detalje
+            i web koji napokon izgleda kao naš brend.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Jelena Marković
+            </b>
+
+            <span>
+              IQ Online Academy
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              MALI KADAR
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r2">
+            “Sve je bilo jasno od prvog razgovora
+            do objave. Posebno nam se svidjela
+            brzina i čistoća izvedbe.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Viktor Ristić
+            </b>
+
+            <span>
+              Mali Kadar
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              KORNER.MK
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r3">
+            “Minimalno, moderno i funkcionalno.
+            Dobili smo stranicu koju stvarno želimo pokazivati.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Daniela Stojanovska
+            </b>
+
+            <span>
+              Korner.MK
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              JOBHIVE
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r4">
+            “Od ideje do gotovog rješenja
+            bez nepotrebnih koraka.
+            Sve je djelovalo promišljeno.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Martin Petrovski
+            </b>
+
+            <span>
+              Nako Modernwear
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              IQ ONLINE ACADEMY
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r5">
+            “Odličan spoj dizajna i razvoja.
+            Web je brz, uredan i radi izvrsno na mobitelu.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Marina Trajkovska
+            </b>
+
+            <span>
+              IQ Online Academy
+            </span>
+
+          </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div class="review-top">
+
+            <span>
+              MALI KADAR
+            </span>
+
+            <div class="stars" aria-label="5 stars">
+
+              <b style="--i:0">★</b>
+              <b style="--i:1">★</b>
+              <b style="--i:2">★</b>
+              <b style="--i:3">★</b>
+              <b style="--i:4">★</b>
+
+            </div>
+
+          </div>
+
+
+          <p data-i18n="r6">
+            “Najviše cijenimo to što smo dobili
+            rješenje koje izgleda premium,
+            ali je i jednostavno za korištenje.”
+          </p>
+
+
+          <div class="review-author">
+
+            <b>
+              Petar Ilievski
+            </b>
+
+            <span>
+              Mali Kadar
+            </span>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section
+      class="contact section"
+      id="contact"
+    >
+
+      <div class="contact-glow"></div>
+
+
+      <div class="contact-top">
+
+        <span data-i18n="contactLabel">
+          KONTAKT
+        </span>
+
+        <span data-i18n="contactAvailable">
+          DOSTUPNI ZA NOVE PROJEKTE
+        </span>
+
+      </div>
+
+
+      <div class="contact-layout contact-final">
+
+
+        <!-- LEFT -->
+        <div class="contact-copy">
+
+          <h2 data-i18n="contactTitle">
+            Imate ideju?
+            <br>
+            <i>Idemo je izgraditi.</i>
+          </h2>
+
+
+          <p data-i18n="contactText">
+            Recite nam što želite napraviti.
+            Vraćamo se s idejom,
+            pristupom i sljedećim korakom.
+          </p>
+
+
+          <div class="contact-facts">
+
+            <div>
+
+              <span data-i18n="contactLocationLabel">
+                LOKACIJA
+              </span>
+
+              <strong>
+                Rijeka / Skopje / na daljinu
+              </strong>
+
+            </div>
+
+
+            <div>
+
+              <span data-i18n="contactEmailLabel">
+                E-MAIL
+              </span>
+
+              <strong>
+                info.apdigitalhr@gmail.com
+              </strong>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT -->
+        <div class="contact-social-panel">
+
+          <div class="contact-social-head">
+
+            <span data-i18n="contactSocialLabel">
+              POVEŽIMO SE
+            </span>
+
+            <b>
+              ↗
+            </b>
+
+          </div>
+
+
+          <div class="contact-socials contact-socials-stack">
+
+
+            <!-- INSTAGRAM -->
+            <a
+              class="contact-icon"
+              href="https://www.instagram.com/apdigitalstudio/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                />
+
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                />
+
+                <circle
+                  cx="17.3"
+                  cy="6.7"
+                  r="1"
+                  class="fill-dot"
+                />
+
+              </svg>
+
+              <span>
+                Instagram
+              </span>
+
+              <b>
+                ↗
+              </b>
+
+            </a>
+
+
+            <!-- EMAIL -->
+            <a
+              class="contact-icon"
+              href="mailto:info.apdigitalhr@gmail.com"
+              aria-label="Email"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <rect
+                  x="3"
+                  y="5"
+                  width="18"
+                  height="14"
+                  rx="2"
+                />
+
+                <path d="m4 7 8 6 8-6"/>
+
+              </svg>
+
+              <span>
+                E-mail
+              </span>
+
+              <b>
+                ↗
+              </b>
+
+            </a>
+
+
+            <!-- GITHUB -->
+            <a
+              class="contact-icon"
+              href="https://github.com/ang-ivana"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <path d="M12 3a9 9 0 0 0-2.85 17.54c.45.08.62-.2.62-.44v-1.53c-2.52.55-3.05-1.07-3.05-1.07-.41-1.05-1-1.33-1-1.33-.82-.56.06-.55.06-.55.91.06 1.39.94 1.39.94.8 1.38 2.11.98 2.63.75.08-.58.31-.98.58-1.2-2.01-.23-4.13-1.01-4.13-4.48 0-.99.35-1.79.94-2.43-.09-.23-.41-1.15.09-2.4 0 0 .77-.25 2.49.93a8.64 8.64 0 0 1 4.53 0c1.72-1.18 2.49-.93 2.49-.93.5 1.25.18 2.17.09 2.4.59.64.94 1.44.94 2.43 0 3.48-2.12 4.25-4.14 4.47.33.28.62.82.62 1.66v2.47c0 .24.16.52.63.43A9 9 0 0 0 12 3Z"/>
+
+              </svg>
+
+              <span>
+                GitHub
+              </span>
+
+              <b>
+                ↗
+              </b>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="brand">
+
+      <span>
+        AP
+      </span>
+
+      <b>
+        Digital Studio
+      </b>
+
+    </div>
+
+
+    <p>
+      © 2026 AP Digital Studio.
+      <span data-i18n="rights">
+        Sva prava pridržana.
+      </span>
+    </p>
+
+
+    <div class="footer-links">
+
+      <a
+        href="#work"
+        data-i18n="footerWork"
+      >
+        Projekti
+      </a>
+
+      <a
+        href="#contact"
+        data-i18n="footerContact"
+      >
+        Kontakt
+      </a>
+
+      <a href="#top">
+        ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
